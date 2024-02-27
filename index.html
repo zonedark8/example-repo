@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Image Loader</title>
+</head>
+<body>
+
+    <!-- Image container -->
+    <div id="image-container">
+        <!-- Image will be loaded here -->
+    </div>
+
+    <script>
+        // GitHub image URL
+        var imageUrl = "https://github.com/zonedark8/example-repo/blob/main/POC.png";
+
+        // Create an image element
+        var img = document.createElement("img");
+
+        // Set the image source to the GitHub URL
+        img.src = imageUrl;
+
+        // Append the image to the image container
+        document.getElementById("image-container").appendChild(img);
+    </script>
+
+</body>
+</html>
